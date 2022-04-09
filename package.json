@@ -1,5 +1,6 @@
 {
   "name": "mastering-context",
+  "packageManager": "yarn@3.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
