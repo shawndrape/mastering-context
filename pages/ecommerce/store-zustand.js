@@ -1,12 +1,13 @@
 import create from "zustand";
+import { devtools } from 'zustand/middleware'
 
-const useStore = create((set) => ({
+const useStore = create(devtools((set) => ({
   user: "",
   cartCount: 0,
   login: () => set(() => ({ user: "Jack" })),
   logout: () => set(() => ({ user: "" })),
   addToCart: () => set((state) => ({ cartCount: state.cartCount + 1 })),
-}));
+})));
 
 export const useLogin = () => useStore((state) => state.login);
 export const useLogout = () => useStore((state) => state.logout);

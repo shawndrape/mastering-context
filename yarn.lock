@@ -1431,6 +1431,7 @@ __metadata:
     next: 12.0.10
     react: 17.0.2
     react-dom: 17.0.2
+    react-sweet-state: ^2.6.0
     use-context-selector: ^1.3.9
     zustand: ^3.7.0
   languageName: unknown
@@ -1810,6 +1811,22 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-sweet-state@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "react-sweet-state@npm:2.6.0"
+  peerDependencies:
+    prop-types: ^15.0.0
+    react: ^16.9.0 || ^17.0.0-0
+    scheduler: "*"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 035b75b9796a8479decbd63624757df611ca930c35a944ad1fba18818a8346c58a4577dd8f06bc43ffcfb8811bf904b8ce34eed7bad34809944e2f07b3222ae2
   languageName: node
   linkType: hard
 
